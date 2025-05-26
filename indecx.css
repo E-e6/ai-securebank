@@ -1,80 +1,61 @@
-/* Global styles */
-* {
-  font-family: 'Arial', sans-serif;
-}
-
-h1 {
-  color: #003366;
-  font-size: 42px;
-}
-
-h2 {
-  color: #003366;
-  font-size: 24px;
-}
-
-p {
-  font-size: 17px;
-  color: #444;
-}
-* {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #f4f7fc;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9fafc;
   color: #333;
   padding: 20px;
-  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
 }
 
-header {
+header, footer {
   text-align: center;
-  margin-bottom: 40px;
 }
 
 h1 {
-  color: #003366;
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 20px;
-  color: #555;
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section {
-  margin-bottom: 30px;
-  background: #fff;
-  padding: 20px;
-  border-left: 5px solid #0077cc;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
+  color: #1b3a57;
+  font-size: 2.5em;
 }
 
 h2 {
-  color: #0077cc;
-  font-size: 24px;
-  margin-bottom: 10px;
+  color: #224870;
 }
 
-p {
-  font-size: 17px;
-  color: #444;
+ul {
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.chatbox {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#chatlog {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+}
+
+#userInput {
+  width: 75%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #224870;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 footer {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 14px;
-  color: #999;
+  margin-top: 40px;
 }
